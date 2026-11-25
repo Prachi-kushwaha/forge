@@ -1,0 +1,1 @@
+(()=>{const b=document.getElementById('theme');if(b){if(localStorage.getItem('forge-theme')==='dark')document.body.classList.add('dark');b.addEventListener('click',()=>{document.body.classList.toggle('dark');localStorage.setItem('forge-theme',document.body.classList.contains('dark')?'dark':'light');});}})();
